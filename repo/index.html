@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silas Tavares - GitHub Inspired Portfolio">
+    <title>Silas Hub - Portfolio</title>
+    <link rel="icon" href="https://github.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portifolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#repositories">Repositórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#map-section">Localização</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <!-- Profile Section -->
+        <section id="profile" class="text-center py-6">
+            <img src="img/imagemperfil.jpg" alt="Profile Picture" class="rounded-circle mb-6">
+            <h1>Silas Tavares</h1>
+            <p>Software Developer | JavaScript | HTML/CSS </p>
+        </section>
+        <div class="d-flex justify-content-center gap-4">
+            <button id="darkModeToggle" class="btn btn-outline-primary ms-3" aria-pressed="false">🌙Noite</button>
+        </div>
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center py-6">
+            <h2>Redes Sociais</h2>
+            <p class="text-center py-3">Sinta-se à vontade para entrar em contato pelos links abaixo!</p>
+            <div class="row justify-content-center g-3">
+        
+                <!-- Email -->
+                <div class="col-12 col-sm-auto">
+                    <a href="mailto:silas.tavares07@gmail.com"
+                        class="btn btn-outline-primary btn-lg d-flex align-items-center gap-2 mx-auto" 
+                        title="Send an Email">
+                        <i class="fas fa-envelope"></i> E-mail
+                    </a>
+                </div>
+        
+                <!-- LinkedIn -->
+                <div class="col-12 col-sm-auto">
+                    <a href="https://www.linkedin.com/in/tavaressilas/"
+                        class="btn btn-outline-primary btn-lg d-flex align-items-center gap-2 mx-auto" 
+                        title="Visit LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+        
+                <!-- GitHub -->
+                <div class="col-12 col-sm-auto">
+                    <a href="https://github.com/tavaressilas10"
+                        class="btn btn-outline-primary btn-lg d-flex align-items-center gap-2 mx-auto" 
+                        title="Visit GitHub" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+        
+            </div>
+        </section>
+        
+
+        <hr>
+
+        <!-- Repositories Section -->
+        <section id="repositories" class="text-center py-6">
+            <h1 class="mb-4">Repositórios</h1>
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/logoazulgit2.webp" class="card-img-top" alt="Imagem do Repositório">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">Um portfólio simples desenvolvido para exibir projetos.</p>
+                            <a href="https://github.com/tavaressilas10?tab=repositories" class="btn btn-outline-warning"
+                                target="_blank">Ver Repositório</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/logoazulgit2.webp" class="card-img-top" alt="Imagem do Repositório">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">Um portfólio simples desenvolvido para exibir projetos.</p>
+                            <a href="https://github.com/tavaressilas10?tab=repositories" class="btn btn-outline-warning"
+                                target="_blank">Ver Repositório</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="img/logoazulgit2.webp" class="card-img-top" alt="Imagem do Repositório">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">Um portfólio simples desenvolvido para exibir projetos.</p>
+                            <a href="https://github.com/tavaressilas10?tab=repositories" class="btn btn-outline-warning"
+                                target="_blank">Ver Repositório</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="map-section">
+            <h1 class="mb-4">Localização</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29403.305266096828!2d-43.372811149163994!3d-22.898126988602787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9962993fd0ab47%3A0x1f5895ef30a53047!2sPra%C3%A7a%20Seca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1732935377438!5m2!1spt-BR!2sbr"
+                width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Silas Tavares. All Rights Reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
